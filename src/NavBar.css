@@ -1,0 +1,51 @@
+
+  .NavBar {
+    background-color: #9e2a2a;
+    display: flex;
+    align-items: flex-start;
+    min-width: 200px;
+  }
+  .NavBar button {
+    border: none;
+    background-color: #9e2a2a;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 30px;
+  }
+  .container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 100vw;
+    height: 10vh;
+    background-color: #9e2a2a;
+  }
+
+@media (max-width: 768px) {
+  .NavBar {
+    width: 100vw;
+    height: 30vh;
+    background-color: #9e2a2a;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #9e2a2a;
+    height: 30vh;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .NavBar .container button {
+    width: 100vw;
+    height: 10vh;
+    background-color: #9e2a2a;
+  }
+}
+
+.NavBar button:hover {
+  background-color: rgb(4, 4, 138);
+}
